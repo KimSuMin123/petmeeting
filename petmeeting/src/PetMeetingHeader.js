@@ -11,7 +11,7 @@ const PetMeetingHeader = () => {
         <div>
             <ul className = "all">
                 <li>
-                    <NavLink to="/PetMeetingHome">
+                    <NavLink to="/">
                         <img className="LogoImg" src={Logo}/>
                     </NavLink>
                 </li>
@@ -35,7 +35,7 @@ const PetMeetingHeader = () => {
                     <Route path="/PetMeetingLogin" element={<PetMeetingLogin/>} />
                     <Route path="/PetMeetingMarket" element={<PetMeetingMarket/>} />
                     <Route path="/PetMeetingPetShow" element={<PetMeetingPetShow/>} />
-                    <Route path="/PetMeetingHome" element={<PetMeetingHome />} />
+                    <Route path="/" element={<PetMeetingHome />} />
                     <Route path="PetMeetingCompany" element={<PetMeetingCompany/>} />
                 </Routes>
         </div>
